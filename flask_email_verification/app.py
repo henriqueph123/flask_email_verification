@@ -6,7 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-BREVO_API_KEY = "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"
+BREVO_API_KEY = "xkeysib-886f8ac30ce71ce7302d5b8c0e8bb10f341fc55c539590f3f33eada7a5c984cb-LvarhbfmpbaL6nC"
 
 @app.route("/api/enviar_codigo", methods=["POST"])
 def enviar_codigo():
